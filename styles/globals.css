@@ -42,3 +42,9 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+
+.bold-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #df5353;
+}

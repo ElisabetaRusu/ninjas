@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      Copyright 2022 Ninjas
+      Copyright 2022 Elisabeta Rusu
     </footer>
   );
 }

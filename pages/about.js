@@ -9,9 +9,13 @@ const About = () => {
       </Head>
       <div>
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
+        <p>Hi!           
+          <br/> My name is Elisabeta!           
+          <br/> I have 23 years and my birthday is in 8 March.
+          <br/> I'm a junior programmer with less than a year experience. My skills are HTML, CSS, JavaScript, ReactJS. 
+        </p>
+        <p>On this website I will show my skills using NextJS!</p>
+        <p className='bold-text'>Enjoy!</p>
       </div>
     </>
   );
