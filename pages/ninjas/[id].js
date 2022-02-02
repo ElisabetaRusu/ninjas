@@ -1,3 +1,6 @@
+import { useRouter } from 'next/router';
+import { RiArrowGoBackFill } from 'react-icons/ri'
+
 export const getStaticPaths = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
@@ -26,8 +29,10 @@ export const getStaticProps = async (context) => {
 }
 
 const Details = ({ ninja }) => {
+  const router = useRouter()
   return (
     <div>
+      <span onClick={() => router.back()}><RiArrowGoBackFill/> Go back</span>
       <h1>{ ninja.name }</h1>
       <p>{ ninja.email }</p>
       <p>{ ninja.website }</p>
